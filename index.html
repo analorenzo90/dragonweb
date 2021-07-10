@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="horizontalscroll.css">
+      <style>
+        .personaje{   
+            height: 720px;
+            width: 744px;
+            background: url("magorayos.png");
+            margin: 5 auto;
+            animation: magocorre 2s steps(12) infinite;  
+            left: 40%;
+            bottom: 15px;
+            position: absolute;
+            
+        }  
+       
+        .fuego1{
+            height: 950px;
+            width: 600px;
+            background: url("fuego1.png");
+            margin: 5 auto;
+            animation: fuego 1.5s steps(8) infinite;  
+            left: 20%;
+            bottom: 15px;
+            position: absolute;
+
+        }
+        .fuego2{
+            height: 1550px;
+            width: 1015px;
+            background: url("fuego2.png");
+            margin: 5 auto;
+            animation: fuego2 1.5s steps(10) infinite;  
+            left: 15%;
+            bottom: 700px;
+            position: absolute;
+
+        }
+        .fondo{
+        width: 4167px;
+        height: 1667px;
+        background: url("magofuego.png");
+        position: relative;
+
+    }
+     
+    
+        
+        @keyframes fuego{
+            0%{
+                background-position: 0px;
+            }
+            100%{
+                background-position: -4266px;
+            }
+            
+        }
+        @keyframes magocorre{
+            0%{
+                background-position: 0px;
+            }
+            100%{
+                background-position: -9272px;
+            }
+        }    
+        @keyframes fuego2{
+            0%{
+                background-position: 0px;
+            }
+            100%{
+                background-position: -12500px;
+            }
+        }  
+        
+    </style>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+    <section>
+        <div class="content" >
+        <h2>Dragons Game</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Totam facilis, 
+            consequatur eaque aliquid quae 
+            dignissimos nulla sed similique culpa
+             ipsum ullam labore reprehenderit saepe deserunt 
+             provident aliquam molestiae 
+             necessitatibus. Cum?</p>
+        </div>
+    </section>
+    <section>
+        <div class="fondo">
+        <div class="fuego2"></div>
+        <div  class="fuego1"></div>    
+        <div class="personaje"></div>
+        </div>
+    </section>
+    <section>
+        <div class="content" >
+        <h2>Dragons Game</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Totam facilis, 
+            consequatur eaque aliquid quae 
+            dignissimos nulla sed similique culpa
+             ipsum ullam labore reprehenderit saepe deserunt 
+             provident aliquam molestiae 
+             necessitatibus. Cum?</p>
+        </div>
+    </section>
+    <section>
+        <div class="fondo">
+        <div class="personaje"></div>
+        </div>
+    </section>
+    <section>
+        <div class="content" >
+        <h2>Dragons Game</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Totam facilis, 
+            consequatur eaque aliquid quae 
+            dignissimos nulla sed similique culpa
+             ipsum ullam labore reprehenderit saepe deserunt 
+             provident aliquam molestiae 
+             necessitatibus. Cum?</p>
+        </div>
+    </section>
+    <section>
+        <div class="fondo">
+        <div class="personaje"></div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
